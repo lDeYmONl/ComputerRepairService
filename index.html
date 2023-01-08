@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="./images/icons/logo_title_orange.png"
+      type="image/gif"
+    />
+    <title>Сервісний центр Reset!</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"
+    ></script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./#source/mainStyle.scss" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+  </head>
+
+  <body>
+    <header class="header_section">
+      <div class="container_fluid">
+        <div class="container_adaptive">
+          <div class="logo">
+            <img src="./images/icons/logo_orange.png" alt="LOGO" />
+          </div>
+
+          <button
+            data-da=".container_adaptive,768,last"
+            class="navbar_toggler"
+            type="button"
+            id="btn_navbar"
+          >
+            <span class="navbar_toggler_icon"></span>
+          </button>
+
+          <ul
+            id="navbar_menu"
+            data-da=".container_fluid,768,last"
+            class="navbar"
+          >
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="#yak_service">Послуги</a></li>
+            <li><a href="#yak_aboutUs">Про нас</a></li>
+            <li><a href="#yak_chooseUs">Чому ми</a></li>
+            <li><a href="#yak_contactUs">Контакти</a></li>
+          </ul>
+
+          <div class="info">
+            <div id="phone-number" class="phone-number">
+              <i class="fa-solid fa-phone"></i>
+              <span id="phoneNumerText">+38(097) 637-4075</span>
+            </div>
+            <div id="email-info" class="email-info">
+              <i class="fa-solid fa-envelope"></i>
+              <span id="emailText">argonautt99@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="home_section">
+      <div class="container">
+        <h1>
+          Якісний та швидкий ремонт комп'ютерів <br />
+          та комп'ютерної техніки
+        </h1>
+        <p>
+          Поламався комп'ютер? Перегрівається? Вимикається?<br />
+          Просто замовте зворотній зв'язок - і наш менеджер <br />проконсультує
+          вас безкоштовно протягом 15 хвилин.
+        </p>
+        <button class="modalFormOpen">Зателефонуйте мені</button>
+      </div>
+      <div class="container_bg">
+        <img src="./images/sections/home_section_bg.jpg" alt="" />
+      </div>
+    </section>
+
+    <section id="yak_service" class="service_section margin_section">
+      <div class="container">
+        <div class="service_info">
+          <h2>Наші <span>Послуги</span></h2>
+          <p>
+            Наш сервіс пропонує великий вибір послуг. Для замовлення послуги
+            скористайтеся формою зворотнього зв'язку!
+          </p>
+        </div>
+        <div class="service_container">
+          <div class="service_item_container">
+            <div class="service_item">
+              <img class="item_img" src="./images/sections/s1.png" alt="" />
+              <p class="item_name">Ремонт кмп'ютерів</p>
+              <p class="item_description">
+                Комп'ютер не вмикається наш майстер швидко та якісно відремонтує
+                комп'ютер із виїздом додому.
+              </p>
+            </div>
+          </div>
+
+          <div class="service_item_container">
+            <div class="service_item">
+              <img class="item_img" src="./images/sections/s2.png" alt="" />
+              <p class="item_name">Заміна комплектуючих</p>
+              <p class="item_description">
+                Бажаєте провести апгрейд пк ? Наш майстер швидко проведе
+                діагностику та заміну будь-яких комплектуючих вашого пк.
+              </p>
+            </div>
+          </div>
+
+          <div class="service_item_container">
+            <div class="service_item">
+              <img class="item_img" src="./images/sections/s3.png" alt="" />
+              <p class="item_name">Відновлення даних</p>
+              <p class="item_description">
+                Допоможемо відновити дані після випадкового форматування диску,
+                або видалення файлів. Виконуємо ремонт жорстких дисків з
+                гарантією.
+              </p>
+            </div>
+          </div>
+          <div class="service_item_container">
+            <div class="service_item">
+              <img class="item_img" src="./images/sections/s4.png" alt="" />
+              <p class="item_name">Оновлення додатків</p>
+              <p class="item_description">
+                Встановлення Windows, драйверів, антивірусного ПЗ, а також
+                оновлення наявних програм.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#yak_contactUs" class="btn_show_form">Викликати майстра</a>
+      </div>
+    </section>
+
+    <section id="yak_aboutUs" class="aboutUs_section margin_section">
+      <div class="container">
+        <div class="aboutUs_container">
+          <div class="aboutUs_info">
+            <h2>У нас найкращий сервіс</h2>
+            <p>
+              Спеціалісти "Reset" щорічно проходять атестацію з ремонту
+              продукції всіх виробників, яких обслуговує компанія, також
+              відвідують технічні навчання і тренінги, підвищуючи свій
+              професійний рівень. Кваліфікацію нашої інженерної команди
+              контролюють незалежні технічні аудитори компаній-вендорів, тому Ви
+              можете сміливо звертатись з технічними питаннями будь-якої
+              складності.
+            </p>
+          </div>
+          <div class="aboutUs_img">
+            <img src="./images/sections/aboutUs.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="yak_chooseUs" class="chooseUs_section margin_section">
+      <div class="container">
+        <div class="chooseUs_info">
+          <h2>Чому Вибирають Саме Нас</h2>
+        </div>
+        <div class="chooseUs_container">
+          <div class="chooseUs_item_container">
+            <div class="chooseUs_item">
+              <img class="item_img" src="./images/sections/w1.png" alt="" />
+              <p class="item_name">Безкоштовна діагностика</p>
+            </div>
+          </div>
+          <div class="chooseUs_item_container">
+            <div class="chooseUs_item">
+              <img class="item_img" src="./images/sections/w2.png" alt="" />
+              <p class="item_name">Швидкий процес ремонту</p>
+            </div>
+          </div>
+          <div class="chooseUs_item_container">
+            <div class="chooseUs_item">
+              <img class="item_img" src="./images/sections/w3.png" alt="" />
+              <p class="item_name">Гарантія низької ціни</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="client_section margin_section">
+      <div class="container">
+        <div class="client_feedback">
+          <h2>Відгуки Наших Клієнтів</h2>
+        </div>
+        <div class="carousel-wrap">
+          <div class="owl-carousel">
+            <div class="item">
+              <div class="box">
+                <div class="client_id">
+                  <div class="img-box">
+                    <img src="./images/sections/client-1.jpg" alt="" />
+                  </div>
+                  <div class="client_detail">
+                    <div class="client_info">
+                      <h6>Максим</h6>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="client_text">
+                  <p>
+                    Робота чудова, якісно зроблено "Ювелірна робота" дуже
+                    задоволений =) P.S. Голосієвський центр кращий.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="client_id">
+                  <div class="img-box">
+                    <img src="./images/sections/client-2.jpg" alt="" />
+                  </div>
+                  <div class="client_detail">
+                    <div class="client_info">
+                      <h6>Євген</h6>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="client_text">
+                  <p>
+                    Чудовий сервіс! Почистили ноутбук за пів години, а оскільки
+                    я з ним 24/7, то прямо виручили. Всім раджу!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="client_id">
+                  <div class="img-box">
+                    <img src="./images/sections/client-0.jpg" alt="" />
+                  </div>
+                  <div class="client_detail">
+                    <div class="client_info">
+                      <h6>Олег</h6>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="client_text">
+                  <p>
+                    Хороший сервісний центр з кваліфікованим персоналом.
+                    Відносив ноутбук, все зробили швидко та якісно. Я залишився
+                    задоволений)))
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="client_id">
+                  <div class="img-box">
+                    <img src="./images/sections/client-3.jpg" alt="" />
+                  </div>
+                  <div class="client_detail">
+                    <div class="client_info">
+                      <h6>Анна</h6>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="client_text">
+                  <p>
+                    Якісно та оперативно! Дякую команді за виконану роботу.
+                    Задоволена всім процесом ремонту. Рекомендую.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="yak_contactUs" class="contactUs_section margin_section">
+      <div class="container">
+        <div class="contactUs_header">
+          <h2>Зв'яжіться з Нами</h2>
+        </div>
+        <div class="contactUs_container">
+          <form
+            class="contactUs_form"
+            method="post"
+            id="ajax_form"
+            action=""
+            onsubmit="event.preventDefault();"
+          >
+            <div class="name_info">
+              <input
+                class="textInputField"
+                type="text"
+                name="name"
+                placeholder="Ім'я"
+              />
+              <input
+                class="textInputField"
+                type="text"
+                name="surname"
+                placeholder="Прізвище"
+              />
+            </div>
+            <div class="contact_info">
+              <input
+                class="textInputField"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+              /><input
+                class="textInputField"
+                type="tel"
+                id="phone"
+                name="phone-number"
+                placeholder="Номер телефону"
+              />
+            </div>
+            <div class="contact_message">
+              <textarea
+                class="form_message"
+                rows="4"
+                name="message"
+                placeholder="Повідомлення"
+              ></textarea>
+            </div>
+
+            <button class="SendApplication" type="submit">Відправити</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer_section margin_section">
+      <div class="container">
+        <div class="footer_info">
+          <div class="footer_detail">
+            <h3>Про нас</h3>
+            <p>
+              Займаємося ремонтом комп'ютерів в Україні для фізичних та
+              юридичних осіб протягом п'яти років
+            </p>
+            <div class="footer_social">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a
+                href="https://join.skype.com/invite/l1e9gie9JJyd"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-skype"></i>
+              </a>
+              <a
+                href="https://t.me/dima_matyash"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer_contactInfo">
+            <h3>Контактна інформація</h3>
+            <div class="contact_link_box">
+              <p>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Вулиця Небесної Сотні, Хмільник, 22001</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-envelope"></i>
+                <span>argonautt99@gmail.com </span>
+              </p>
+              <p>
+                <i class="fa-solid fa-phone"></i>
+                <span>+38(097) 637-4075</span>
+              </p>
+
+              <p>
+                <i class="fa-solid fa-clock"></i>
+                <span>Пн-Пт: 10.00 - 19.00</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-clock"></i>
+                <span>Сб-Нд: Вихідний</span>
+              </p>
+            </div>
+          </div>
+          <div class="footer_gmap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d323.50313968116967!2d27.95497114603424!3d49.5595492363791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1668703374287!5m2!1sru!2sua"
+              width="100%"
+              height="195px"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="footer_rule_info">
+          <p>
+            &copy; <span id="displayYear"></span> 2017–2022 Всі права захищені.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modalForm_background">
+      <div class="modalForm">
+        <div class="modalForm_close"></div>
+        <form
+          class="modalForm_container"
+          method="post"
+          id="m_ajax_form"
+          action=""
+          onsubmit="event.preventDefault();"
+        >
+          <input
+            class="mtextInputField"
+            type="text"
+            name="mName"
+            placeholder="Ім'я"
+          />
+          <input
+            id="mPhone"
+            class="mtextInputField"
+            type="tel"
+            name="mPhone"
+            placeholder="Номер телефону"
+          />
+          <button class="mSendApplication" type="submit">
+            Залишити заявку
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/8fdd35f860.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/optional/dynamicAdapt_dev.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js.js"></script>
+    <script src="./js/optional/jquery.maskedinput.js"></script>
+  </body>
+</html>
